@@ -1,3 +1,3 @@
-const THRESHOLD = 100;
-THRESHOLD = 200;
-console.log(THRESHOLD);
+var something = 7;
+var something = 5;
+console.log(something);
