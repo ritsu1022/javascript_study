@@ -1,3 +1,4 @@
-const myName = 'Mike';
-const str = 'Hello,' + myName;
-console.log(str);
+const a = 1;
+const b = '2';
+const answer = a + b;
+console.log(answer);
