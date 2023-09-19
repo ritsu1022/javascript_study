@@ -1,4 +1,3 @@
-const num1 = 13;
-const num2 = 5;
-const answer = num1 % num2;
-console.log(answer);
+let num1 = 0;
+num1++;
+console.log(num1);
