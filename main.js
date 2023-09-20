@@ -1,5 +1,3 @@
 const animals = ['cat', 'dog', 'bird'];
-console.log(animals);
-
-animals[0] = 'human';
+animals = ['human', 'dog', 'bird'];
 console.log(animals);
