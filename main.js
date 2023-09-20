@@ -1,3 +1,3 @@
 const animals = ['cat', 'dog', 'bird'];
-animals.unshift('monkey');
+animals.splice(0, 1);
 console.log(animals);
