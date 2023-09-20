@@ -1,3 +1,3 @@
 const animals = ['cat', 'dog', 'bird'];
-animals = ['human', 'dog', 'bird'];
+animals.push('monkey');
 console.log(animals);
