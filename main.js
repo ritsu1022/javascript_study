@@ -1,4 +1,5 @@
-const haiku = `しばらくは
-花の上なる
-月夜かな`;
-console.log(haiku);
+let something;
+console.log(something);
+console.log(typeof something);
+
+console.log(typeof anything);
