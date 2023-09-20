@@ -5,5 +5,5 @@ const myProfile = {
   hometown: '佐賀'
 };
 
-myProfile.sex = '男性';
-console.log(myProfile.sex);
+delete myProfile.hometown;
+console.log(myProfile);
