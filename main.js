@@ -5,5 +5,5 @@ const myProfile = {
   hometown: '佐賀'
 };
 
-delete myProfile.hometown;
-console.log(myProfile);
+console.log(myProfile.hasOwnProperty('lastName'));
+console.log(myProfile.hasOwnProperty('sex'));
