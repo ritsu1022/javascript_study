@@ -5,5 +5,5 @@ const myProfile = {
   hometown: '佐賀'
 };
 
-console.log(myProfile['lastName']);
-console.log(myProfile.lastName);
+myProfile.hometown = 'つくば';
+console.log(myProfile.hometown);
