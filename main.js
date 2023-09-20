@@ -1,3 +1,7 @@
-const animals = ['cat', 'dog', 'bird'];
+const numbers = [
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8, 9]
+];
 
-console.log(animals.length);
+console.log(numbers[1][2]);
