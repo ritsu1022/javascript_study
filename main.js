@@ -1,7 +1,7 @@
-function addNumber(x, y) {
-  console.log(x);
-  console.log(y);
-  console.log(x + y);
+function doSomething(...args) {
+  console.log(args);
 }
 
-addNumber(3, 5);
+doSomething(0, 1, 2);
+doSomething(3, 4, 5, 6);
+doSomething(7);
