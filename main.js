@@ -1,7 +1,9 @@
-function doSomething(...args) {
-  console.log(args);
+function getTriangleArea(base, height) {
+  const area = (base * height) / 2;
+  return area;
 }
 
-doSomething(0, 1, 2);
-doSomething(3, 4, 5, 6);
-doSomething(7);
+const area1 = getTriangleArea(4, 5);
+const area2 = getTriangleArea(2, 80);
+console.log(area1);
+console.log(area2);
