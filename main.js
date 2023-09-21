@@ -1,5 +1,6 @@
-function showLog() {
-  console.log(7);
+function sayHello(name) {
+  console.log(`Hello, ${name}!`);
 }
 
-showLog();
+sayHello('John');
+sayHello('Paul');
