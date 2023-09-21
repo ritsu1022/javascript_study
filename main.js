@@ -1,4 +1,4 @@
-function getTriangleArea(base, height) {
+const getTriangleArea = function (base, height) {
   const area = (base * height) / 2;
   return area;
 }
