@@ -1,6 +1,7 @@
-function sayHello(name = 'John Doe') {
-  console.log(`Hello, ${name}!`);
+function addNumber(x, y) {
+  console.log(x);
+  console.log(y);
+  console.log(x + y);
 }
 
-sayHello();
-sayHello('Mike');
+addNumber(3, 5);
