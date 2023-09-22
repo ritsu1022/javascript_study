@@ -1,15 +1,7 @@
-const a = 'グローバルスコープにおいてのa';
-
-const func1 = () => {
-  // const a = 'func1関数においてのa';
+const func = () => {
   console.log(a);
-
-  const func2 = () => {
-    // const a = 'func2関数においてのa';
-    console.log(a);
-  };
-  func2();
+  let a = 5;
+  console.log(a);
 };
 
-console.log(a);
-func1();
+func();
