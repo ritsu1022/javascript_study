@@ -1,7 +1,7 @@
 const a = 'グローバルスコープにおいてのa';
 
 const func1 = () => {
-  const a = 'func1関数においてのa';
+  // const a = 'func1関数においてのa';
   console.log(a);
 
   const func2 = () => {
