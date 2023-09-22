@@ -1,6 +1,6 @@
 const func = () => {
   console.log(a);
-  let a = 5;
+  var a = 5;
   console.log(a);
 };
 
