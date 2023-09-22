@@ -5,7 +5,7 @@ const func1 = () => {
   console.log(a);
 
   const func2 = () => {
-    const a = 'func2関数においてのa';
+    // const a = 'func2関数においてのa';
     console.log(a);
   };
   func2();
