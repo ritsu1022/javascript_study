@@ -1,10 +1,12 @@
-const getIsAdult = age => {
-  if (age > 18) {
-    return '成人です';
+const checkBMI = (height, weight) => {
+  const bmi = weight / (height * height);
+  if (bmi > 25) {
+    return '太りすぎです';
+  } else if (bmi < 18.5) {
+    return '痩せすぎです';
   } else {
-    return '未成年です';
+    return '標準体型です';
   }
 };
 
-console.log(getIsAdult(40));
-console.log(getIsAdult(16));
+console.log(checkBMI(1.76, 62));
