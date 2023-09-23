@@ -1,6 +1,13 @@
-//数学と英語の点数が、どちらかが80点以上であれば合格の場合（OR条件）
-const bool1 = true;
-console.log(!bool1);
+const a = '20代である';
+const b = '女性である';
+if (!(a === '20代である' || b === '女性である')) {
+  console.log('20代でもないし女性でもない');
+} else {
+  console.log('20代であるか女性である');
+}
 
-const bool2 = false;
-console.log(!bool2);
+if (a !== '20代である' && b !== '女性である') {
+  console.log('20代でもないし女性でもない');
+} else {
+  console.log('20代であるか女性である');
+}
