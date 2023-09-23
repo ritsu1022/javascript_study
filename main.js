@@ -1,7 +1,10 @@
-const func = () => {
-  console.log(a);
-  var a = 5;
-  console.log(a);
+const getIsAdult = age => {
+  if (age > 18) {
+    return '成人です';
+  } else {
+    return '未成年です';
+  }
 };
 
-func();
+console.log(getIsAdult(40));
+console.log(getIsAdult(16));
