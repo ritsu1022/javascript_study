@@ -1,3 +1,18 @@
-const getIsEven = num => num % 2 === 0 ? '偶数' : '奇数';
+const getCry = animal => {
+  switch (animal) {
+    case 'cat':
+      return 'にゃー';
+    case 'dog':
+      return 'わんわん';
+    case 'bird':
+      return 'ちゅんちゅん';
+    case 'lion':
+      return 'がおー';
+    case 'elephant':
+      return 'ぱおーん';
+    default:
+      return '......';
+  }
+};
 
-console.log(getIsEven(5));
+console.log(getCry('elephant'));
