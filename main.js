@@ -1,13 +1,9 @@
-const a = '20代である';
-const b = '女性である';
-if (!(a === '20代である' || b === '女性である')) {
-  console.log('20代でもないし女性でもない');
-} else {
-  console.log('20代であるか女性である');
-}
+const getIsEven = num => {
+  if (num % 2 === 0) {
+    return '偶数';
+  } else {
+    return '奇数';
+  }
+};
 
-if (a !== '20代である' && b !== '女性である') {
-  console.log('20代でもないし女性でもない');
-} else {
-  console.log('20代であるか女性である');
-}
+console.log(getIsEven(5));
