@@ -1,18 +1,23 @@
-const getCry = animal => {
+const cry = animal => {
   switch (animal) {
     case 'cat':
-      return 'にゃー';
+      console.log('にゃー');
+      break;
     case 'dog':
-      return 'わんわん';
+      console.log('わんわん');
+      break;
     case 'bird':
-      return 'ちゅんちゅん';
+      console.log('ちゅんちゅん');
+      break;
     case 'lion':
-      return 'がおー';
+      console.log('がおー');
+      break;
     case 'elephant':
-      return 'ぱおーん';
+      console.log('ぱおーん');
+      break;
     default:
-      return '......';
+      console.log('......');
   }
 };
 
-console.log(getCry('elephant'));
+cry('dog');
