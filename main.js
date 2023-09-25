@@ -1,5 +1,4 @@
-var showNumber = function(number) {
-  var number = number || 5;
+const showNumber = (number = 5) => {
   console.log(number);
 };
 
