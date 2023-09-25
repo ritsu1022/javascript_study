@@ -1,4 +1,4 @@
-const value = '';
+let value;
 if (value) {
   console.log(true);
 } else {
