@@ -1,4 +1,4 @@
-const value = 5;
+const value = '0';
 if (value) {
   console.log(true);
 } else {
