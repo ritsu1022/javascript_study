@@ -6,6 +6,6 @@ const animals =  {
   elephant: 'ぱおーん'
 }
 
-for (const k in animals) {
+Object.keys(animals).forEach(k => {
   console.log(`${k}は「${animals[k]}」と鳴きます`)
-}
+});
