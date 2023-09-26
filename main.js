@@ -4,8 +4,8 @@ const animals =  {
   bird: 'ちゅんちゅん',
   lion: 'がおー',
   elephant: 'ぱおーん'
-}
+};
 
-Object.keys(animals).forEach(k => {
-  console.log(`${k}は「${animals[k]}」と鳴きます`)
+Object.values(animals).forEach(value => {
+  console.log(value);
 });
