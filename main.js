@@ -1,5 +1,10 @@
-const animals = ['cat', 'dog', 'bird'];
+function sumNumbers(...args) {
+  let result = 0;
+  args.forEach((arg) => {
+    result += arg;
+  });
+  return result;
+}
 
-animals.forEach(animal => {
-  console.log(animal);
-});
+console.log(sumNumbers(1, 2));
+console.log(sumNumbers(1, 2, 3, 4, 5, 6, 7));
