@@ -1,10 +1,4 @@
-function sumNumbers(...args) {
-  let result = 0;
-  args.forEach((arg) => {
-    result += arg;
-  });
-  return result;
-}
+const numbers = [1, 3, 8];
+const result = numbers.map(number => number * 2);
 
-console.log(sumNumbers(1, 2));
-console.log(sumNumbers(1, 2, 3, 4, 5, 6, 7));
+console.log(result);
