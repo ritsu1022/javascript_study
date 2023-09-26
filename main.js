@@ -1,5 +1,11 @@
-const numbers1 = [1, 3, 8];
-const numbers2 = [7, 9, 13];
+const animals =  {
+  cat: 'にゃー',
+  dog: 'わんわん',
+  bird: 'ちゅんちゅん',
+  lion: 'がおー',
+  elephant: 'ぱおーん'
+}
 
-console.log(numbers1.filter(number => number > 10));
-console.log(numbers2.filter(number => number > 10));
+for (const k in animals) {
+  console.log(`${k}は「${animals[k]}」と鳴きます`)
+}
