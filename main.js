@@ -1,3 +1,4 @@
-const animals = ['cat', 'dog', 'bird']
+const str = 'abc';
 
-console.log(animals);
+console.log(str.length);
+console.log(str.toUpperCase());
