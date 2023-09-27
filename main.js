@@ -1,13 +1,13 @@
-const obj = {
-  str: 'abc',
-  func1() {
-    console.log(this.str); // メソッド呼び出し
-    
-    const func2 = () => {
-      console.log(this.str); // 関数呼び出し
-    };
-    func2();
+class Person {
+  constructor(name, born) {
+    this.name = name;
+    this.born = born;
   }
 }
 
-obj.func1();
+const john = new Person('John Lennon', '1940');
+const paul = new Person('Paul McCartney', '1942');
+const ringo = new Person('Ringo Starr', '1940');
+
+console.log(john);
+console.log(john.name);
