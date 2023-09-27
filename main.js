@@ -1,7 +1,4 @@
-const now = new Date();
-console.log(now);
-console.log(now.getFullYear());
+console.log(Math.PI);
 
-const myBirthday = new Date('1982-12-23');
-console.log(myBirthday);
-console.log(myBirthday.getFullYear());
+Math = 10;
+console.log(Math.PI);
