@@ -1,3 +1,7 @@
-const getRandomNumber = (start, end) => Math.floor(start + Math.random() * (end + 1 - start));
+const now = new Date();
+console.log(now);
+console.log(now.getFullYear());
 
-console.log(getRandomNumber(50, 100));
+const myBirthday = new Date('1982-12-23');
+console.log(myBirthday);
+console.log(myBirthday.getFullYear());
