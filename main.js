@@ -8,10 +8,19 @@ class Person {
   }
 }
 
-const john = new Person('John Lennon', '1940');
-const paul = new Person('Paul McCartney', '1942');
-const ringo = new Person('Ringo Starr', '1940');
+class Musician extends Person {
+  constructor(name, born, part) {
+    super(name, born);
+    this.part = part;
+  }
+  introduce() {
+    console.log(`My part is ${this.part}.`);
+  }
+}
 
-console.log(john);
+const john = new Musician('John Lennon', '1940', 'rhythm guitar');
+
 console.log(john.name);
 john.greet();
+console.log(john.part);
+john.introduce();
