@@ -1,4 +1,8 @@
 const target = document.getElementById('main');
-const parent = target.parentNode;
+const first = target.firstElementChild;
+const last = target.lastElementChild;
+const children = target.children;
 
-console.log(parent);
+console.log(first);
+console.log(last);
+console.log(children);
