@@ -1,1 +1,1 @@
-alert('アラートが表示されます');
+console.log(document.getElementsByTagName('p'));
