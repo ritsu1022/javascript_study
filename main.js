@@ -1,3 +1,1 @@
-console.log(document);
-console.log(window.document);
-console.log(window);
+alert('アラートが表示されます');
