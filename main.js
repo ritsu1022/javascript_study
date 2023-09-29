@@ -1,5 +1,6 @@
-const targets = document.querySelectorAll('#main > p');
-const target = document.querySelector('#main > p');
+const target = document.getElementById('main').firstElementChild;
 
-console.log(targets);
-console.log(target);
+let text;
+
+text = target.textContent;
+console.log(text);
