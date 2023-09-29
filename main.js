@@ -1,3 +1,3 @@
-const target = document.getElementById('main');
-
-console.log(target);
+console.log(document);
+console.log(window.document);
+console.log(window);
