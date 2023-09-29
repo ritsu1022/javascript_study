@@ -1,8 +1,6 @@
 const target = document.getElementById('main');
-const first = target.firstElementChild;
-const last = target.lastElementChild;
-const children = target.children;
+const next = target.nextElementSibling;
+const previous = target.previousElementSibling;
 
-console.log(first);
-console.log(last);
-console.log(children);
+console.log(next);
+console.log(previous);
