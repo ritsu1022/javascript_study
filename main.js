@@ -1,11 +1,5 @@
 const target = document.getElementById('main').firstElementChild;
 
-let text;
-
-text = target.textContent;
-console.log(text);
-
-target.textContent = 'テキストが変更されました';
-
-text = target.textContent;
-console.log(text);
+target.style.fontSize = '.5em';
+target.style.border = '1px solid #000';
+target.style.marginBottom = '100px';
