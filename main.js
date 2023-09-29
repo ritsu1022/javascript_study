@@ -1,6 +1,5 @@
-const target = document.getElementById('main');
-const next = target.nextElementSibling;
-const previous = target.previousElementSibling;
+const targets = document.querySelectorAll('#main > p');
+const target = document.querySelector('#main > p');
 
-console.log(next);
-console.log(previous);
+console.log(targets);
+console.log(target);
