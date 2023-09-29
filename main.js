@@ -1,1 +1,4 @@
-console.log(document.getElementsByTagName('p'));
+const target = document.getElementById('main');
+const parent = target.parentNode;
+
+console.log(parent);
