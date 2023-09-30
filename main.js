@@ -1,11 +1,9 @@
-const target1 = document.getElementById('main');
-const target2 = target1.firstElementChild;
+const target = document.getElementById('main').firstElementChild;
 
-target1.addEventListener('click', () => {
-  console.log('target1をクリックしました');
-});
-
-target2.addEventListener('click', e => {
-  console.log('target2をクリックしました');
-  e.stopPropagation();
+target.addEventListener('click', () => {
+  setTimeout(() => {
+    console.log('HTMLの内容を変更します');
+    target.textContent = 'クリックされました';
+  }, 3000);
+  console.log('クリックされました。3秒後にHTMLの内容が変更されます。')
 });
