@@ -1,9 +1,13 @@
-const target = document.getElementById('main').firstElementChild;
+const func = () => {
+  const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve();
+    }, 3000);
+  });
+  return promise;
+};
 
-target.addEventListener('click', () => {
-  setTimeout(() => {
-    console.log('HTMLの内容を変更します');
-    target.textContent = 'クリックされました';
-  }, 3000);
-  console.log('クリックされました。3秒後にHTMLの内容が変更されます。')
-});
+func()
+  .then(() => {
+    console.log('done');
+  });
