@@ -1,5 +1,5 @@
-const element = document.createElement('p');
-element.textContent = 'これは追加された要素です';
+const target = document.getElementById('main').firstElementChild;
 
-const target = document.getElementById('main');
-target.appendChild(element);
+target.addEventListener('click', () => {
+  target.textContent = 'クリックされました';
+});
