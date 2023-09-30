@@ -1,5 +1,10 @@
-const target = document.getElementById('main').firstElementChild;
+const target1 = document.getElementById('main');
+const target2 = target1.firstElementChild;
 
-target.addEventListener('click', () => {
-  target.textContent = 'クリックされました';
+target1.addEventListener('click', () => {
+  console.log('target1をクリックしました')
+});
+
+target2.addEventListener('click', () => {
+  console.log('target2をクリックしました')
 });
