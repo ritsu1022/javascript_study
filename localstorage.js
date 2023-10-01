@@ -1,3 +1,4 @@
+const storage = localStorage;
 const box = document.getElementById('box');
 
 const getRandomColor = () => {
@@ -11,4 +12,11 @@ box.addEventListener('click', () => {
   const color = getRandomColor();
   console.log(color);
   box.style.backgroundColor = color;
+  storage.setItem('backgroundColor', color);
 });
+
+const bg = storage.getItem('backgroundColor');
+console.log(bg);
+if (bg) {
+  box.style.backgroundColor = bg;
+}
