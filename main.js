@@ -1,16 +1,8 @@
-const func = () => {
-  const promise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      reject();
-    }, 3000);
-  });
-  return promise;
-};
+let a ="xxx";
+let b = new String("yyy");
 
-func()
-  .then(() => {
-    console.log('done');
-  })
-  .catch(() => {
-    console.log('error');
-  });
+console.log(typeof(a));
+console.log(typeof(b));
+
+console.log(a.length);
+console.log(b.length);
