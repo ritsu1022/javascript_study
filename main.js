@@ -1,8 +1,5 @@
-let a ="xxx";
-let b = new String("yyy");
+let c = 1;
+let d = 1.23;
 
-console.log(typeof(a));
-console.log(typeof(b));
-
-console.log(a.length);
-console.log(b.length);
+console.log(typeof(c));
+console.log(typeof(d));
