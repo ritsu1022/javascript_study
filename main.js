@@ -1,7 +1,7 @@
-let e = 0xff;
-let f = 077;
-
-console.log(e);
-console.log(typeof(e));
-console.log(f);
-console.log(typeof(f));
+console.log(null - 0);
+console.log(true - 0);
+console.log(false - 0);
+console.log(123 - 0);
+console.log("aaa" - 0);
+console.log("123" - 0);
+console.log("0xffff" - 0);
