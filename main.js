@@ -1,3 +1,2 @@
-console.log(1 / 0);
-console.log(-1 / 0);
-console.log((-1 / 0) == (-2 / 0));
+console.log(0 / 0);
+console.log(Number("abc"));
