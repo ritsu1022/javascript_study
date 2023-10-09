@@ -1,18 +1,9 @@
-let Human = function(name, age) {
-  this.name = name;
-  this.age = age;
+let x = 2;
+let y = 3;
 
-  this.talkHello = function() {
-    return ("My name is " + name + "." + this.age +" years old.");
-  }
-}
+x == y? console.log("x = y"):console.log("x <> y")
 
-let mike = new Human('Mike', 16);
+let a = 3;
+let b = 3;
 
-console.log(mike.name);
-console.log(mike['name']);
-
-console.log(mike.talkHello());
-
-console.log(mike['talkHello']());
-
+a == b? console.log("a == b"):console.log("a <> b")
