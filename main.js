@@ -1,4 +1,5 @@
-let sum1 = 10;
-let sum2 = 34;
+let a = "99";
+let b = 99;
 
-console.log(`Total; ${sum1 + sum2}`);
+console.log(a == b);
+console.log(a === b);
