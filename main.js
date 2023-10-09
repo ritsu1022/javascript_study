@@ -1,5 +1,18 @@
-let a = "99";
-let b = 99;
+let Human = function(name, age) {
+  this.name = name;
+  this.age = age;
 
-console.log(a == b);
-console.log(a === b);
+  this.talkHello = function() {
+    return ("My name is " + name + "." + this.age +" years old.");
+  }
+}
+
+let mike = new Human('Mike', 16);
+
+console.log(mike.name);
+console.log(mike['name']);
+
+console.log(mike.talkHello());
+
+console.log(mike['talkHello']());
+
