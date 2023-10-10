@@ -1,4 +1,8 @@
-let num = [111, 222, 333];
-  for ( let i of num ) {
-    console.log(i);
-  }
+let n = 0;
+while (1) {
+  if ( n > 100 )
+    break;
+  n++;
+}
+
+console.log(n);
