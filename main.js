@@ -1,5 +1,4 @@
-let s = 0;
-for ( let i = 1; i <= 10; i++) {
-  s = s + i;
+let num = [111, 222, 333];
+for ( let i in num ) {
+  console.log(i);
 }
-console.log(s);
