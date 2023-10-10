@@ -1,12 +1,11 @@
-let c = 0;
+let i = 0;
 
-// 1~12月分のﾙｰﾌﾟ処理
-for ( let month = 1; month <= 12; month++ ) {
-
-  // 6~8月は加算処理をｽｷｯﾌﾟ
-  if ( month >= 6 && month <= 8) continue;
-
-  c++;
+try {
+  if ( i === 0 ) {
+    throw "iが0!";
+  }
+} catch (e) {
+  console.log(e);
+} finally {
+  console.log("終了処理");
 }
-
-console.log(c);
