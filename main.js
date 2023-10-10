@@ -1,8 +1,5 @@
-let n = 1;
 let s = 0;
-while ( n <= 10 ) {
-  s = s + n;
-  n = n + 1;
+for ( let i = 1; i <= 10; i++) {
+  s = s + i;
 }
-
 console.log(s);
