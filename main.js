@@ -1,9 +1,5 @@
-let num = new Array(111, 222, 333);
+let n = ["foo", "bar", "hoge"];
+console.log(n.join("&"));
 
-console.log(num.length);
-
-num.length = 2;
-console.log(num);
-
-num.length = 3;
-console.log(num);
+let e = ["apple", "orange", "melon"];
+console.log(e.join("and"));
