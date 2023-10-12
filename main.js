@@ -1,5 +1,3 @@
-let n = ["foo", "bar", "hoge"];
-let x = ["aaa", "bbb", "ccc"];
+let n = ["a", "b", "c", "d", "e", "f"];
 
-console.log(n.concat(x));
-console.log(n);
+console.log(n.slice(1,4));
