@@ -1,9 +1,9 @@
-let birthDay = new Array();
+let num = new Array(111, 222, 333);
 
-birthDay["foo"] = "8/4";
-birthDay["bar"] = "12/24";
-birthDay["hoge"] = "2/14";
+console.log(num.length);
 
-console.log(birthDay["foo"]);
-console.log(birthDay["bar"]);
-console.log(birthDay["hoge"]);
+num.length = 2;
+console.log(num);
+
+num.length = 3;
+console.log(num);
