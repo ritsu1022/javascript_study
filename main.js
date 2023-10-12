@@ -1,2 +1,5 @@
-let num = 111;
-console.log(num);
+let num = [111, 222, 333];
+
+console.log(num[0]);
+console.log(num[1]);
+console.log(num[2]);
