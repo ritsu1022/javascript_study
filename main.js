@@ -1,2 +1,2 @@
 let n = ["foo", "bar", "hoge"];
-console.log(n.reverse());
+console.log(n.sort());
