@@ -1,9 +1,10 @@
-let num = new Array(3);
+let birthDay = [["foo", "8/4"],
+                ["bar", "12/24"],
+                ["hoge", "2/14"]];
 
-num[0] = 111;
-num[1] = 222;
-num[2] = 333;
-console.log(num[0]);
-console.log(num[1]);
-console.log(num[2]);
-console.log(num);
+console.log(birthDay[0][0]);
+console.log(birthDay[0][1]);
+console.log(birthDay[1][0]);
+console.log(birthDay[1][1]);
+console.log(birthDay[2][0]);
+console.log(birthDay[2][1]);
