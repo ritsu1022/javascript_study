@@ -1,4 +1,4 @@
-let n = ["a", "b", "c", "d", "e", "f"];
+let n = ["foo", "bar", "hoge"];
 
-console.log(n.shift());
+console.log(n.unshift("aaa", "bbb"));
 console.log(n);
