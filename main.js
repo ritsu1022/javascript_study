@@ -1,2 +1,3 @@
 let n = ["foo", "bar", "hoge"];
-console.log(n.sort());
+console.log(n.pop());
+console.log(n);
