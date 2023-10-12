@@ -1,4 +1,4 @@
-let n = ["foo", "bar", "hoge"];
+let n = [111, 222, 333];
 
-console.log(n.unshift("aaa", "bbb"));
 console.log(n);
+console.log(n.toString());
