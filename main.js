@@ -1,6 +1,5 @@
 let n = ["foo", "bar", "hoge"];
+let x = ["aaa", "bbb", "ccc"];
 
-console.log(n.length);
-console.log(n.push("zzz"));
+console.log(n.concat(x));
 console.log(n);
-console.log(n.length);
