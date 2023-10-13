@@ -1,12 +1,13 @@
-function Person(name) {
-  this.name = name;
-}
+class Human {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+    this.talkHello = function () {
+      return("My name is " + name + "." + age + " years old.");
+    };
+  };
+};
 
-// コンストラクタを呼び出し、オブジェクトnewPersonを作成
-let newPerson = new Person("Mike");
-
-// コンストラクタのprototypeプロパティにプロパティsexを追加
-Person.prototype.sex = "male";
-
-// オブジェクトnewPersonにsexプロパティが追加されている
-console.log(newPerson.sex);
+let mike = new Human("Mike", 16);
+console.log(mike.name);
+console.log(mike.talkHello());
