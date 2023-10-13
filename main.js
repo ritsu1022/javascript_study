@@ -1,5 +1,13 @@
-let d = [new Date(1975, 2, 14), new Date(2014, 7, 31)];
+let Human = function(name, age) {
+  this.name = name;
+  this.age = age;
 
-console.log(d.toString());
+  this.talkHello = function() {
+    return("My name is " + name + "." + this.age +" years old.");
+  };
+};
 
-console.log(d.toLocaleString());
+let mike = new Human("Mike", 16);
+
+console.log(mike.name);
+console.log(mike.talkHello());
