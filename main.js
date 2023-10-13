@@ -1,4 +1,5 @@
 let mike = {name:"Mike"};
 
-delete mike.name;
-console.log(mike.name);
+if ("name" in mike) {
+  console.log("aruyo");
+}
