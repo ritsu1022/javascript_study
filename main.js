@@ -1,4 +1,3 @@
 let mike = {name:"Mike"};
 
-console.log(mike.hasOwnProperty('name'));
-console.log(mike.hasOwnProperty('constructor'));
+console.log(mike.propertyIsEnumerable('name'));
