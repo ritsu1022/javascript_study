@@ -1,9 +1,6 @@
-let mike = {name:"noname"};
+let mike = {name:"Mike"};
 
-console.log(mike.name);
+console.log(mike.age);
 
-mike.name = "Mike";
-console.log(mike.name);
-
-mike["name"] = "Michael";
-console.log(mike.name);
+mike.age = 19;
+console.log(mike.age);
