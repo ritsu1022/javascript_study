@@ -1,6 +1,4 @@
 let mike = {name:"Mike"};
 
-console.log(mike.age);
-
-mike.age = 19;
-console.log(mike.age);
+delete mike.name;
+console.log(mike.name);
