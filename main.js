@@ -1,3 +1,3 @@
 let mike = {name:"Mike"};
 
-console.log(mike.constructor);
+console.log(mike.toString());
