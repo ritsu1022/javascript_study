@@ -1,5 +1,5 @@
-function adder(x, y) {
-  return x + y;
+function func(x) {
+  a = x + 5;
 }
 
-console.log(adder(2, 3));
+console.log(func(5));
