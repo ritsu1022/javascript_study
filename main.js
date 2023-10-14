@@ -1,4 +1,13 @@
-let adder = "return x + y;";
+let Human = function(name, age) {
+  this.name = name;
+  this.age = age;
 
-let adderObj = new Function("x", "y", adder);
-console.log(adderObj(2, 3));
+  this.talkHello = function() {
+    return ("My name is " + name + "." + this.age + " years old.");
+  }
+}
+
+let mike = new Human('Mike', 16);
+
+console.log(mike.name);
+console.log(mike.talkHello());
