@@ -1,5 +1,4 @@
-function func(x) {
-  a = x + 5;
-}
+let adder = "return x + y;";
 
-console.log(func(5));
+let adderObj = new Function("x", "y", adder);
+console.log(adderObj(2, 3));
