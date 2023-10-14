@@ -1,4 +1,3 @@
-function number(...args) {
-  console.log(args);
-}
-number(1, 2, 3, 4, 5);
+let num = [1, 2, 3, 4, 5];
+
+console.log(...num);
