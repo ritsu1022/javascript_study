@@ -1,13 +1,18 @@
-function closure () {
-  let a = 1;
+let member = {
+  foo:{
+    number : 1,
+    name   :"foo",
+  },
+  bar:{
+    count  : 2,
+    name   :"bar",
+  },
+  hoge:{
+    count  : 3,
+    name   :"hoge",
+  }
+};
 
-  return function() {
-    return a++;
-  };
-}
+let json_str = JSON.stringify(member);
 
-let c = closure();
-
-console.log(c());
-console.log(c());
-console.log(c());
+console.log(json_str);
